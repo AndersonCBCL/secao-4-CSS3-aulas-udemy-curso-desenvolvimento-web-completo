@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static, relative, absolute e fixed)</title>
+
+    <style type="text/css">
+        
+        body {
+            background: #007fc7;
+        }
+
+        #container {
+            background: #fff;
+            width: 800px;
+            /* margin: 10px 80px; */
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        h1 {
+            position: static;
+        }
+
+        p {
+            width: 300px;
+            position: static;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /* top, right, bottom, left */
+            /* top: 20px; */
+            top: -20px;
+            left: 80px;
+            right: -40px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Posicionamentos </h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam nemo iste corporis voluptates vero numquam cupiditate odit accusamus! Quis suscipit praesentium nostrum in beatae repudiandae nulla veritatis animi veniam.
+        </p>
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quos facere totam optio porro repudiandae atque eaque a nisi aperiam mollitia harum earum dolores tempore, autem excepturi aut. Enim, nisi.
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium fuga esse repellat perspiciatis harum laboriosam veritatis reiciendis obcaecati necessitatibus enim animi soluta assumenda ullam, numquam veniam, sit et facilis.
+        </p>
+    </div>
+    <br><br><br>
+
+    <span class="borda2">inline 1</span>
+    <span class="borda2">inline 2</span>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline-block</title>
+
+    <style type="text/css">
+        .borda{
+            border: 1px solid red;
+        }
+        .borda1{
+            border: 1px solid red;
+            display: inline;
+        }
+        .borda2{
+            border: 1px solid red;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 class="borda">Bloco 1</h1>
+    <div class="borda">Bloco 2</div>
+    <br><br><br>
+    <h1 class="borda1">Bloco 3</h1>
+    <div class="borda1">Bloco 4</div>
+    <br><br><br>
+
+    <span class="borda">inline 1</span>
+    <span class="borda">inline 2</span>
+    <br><br><br>
+    <span class="borda2">inline 1</span>
+    <span class="borda2">inline 2</span>
+</body>
+</html>
